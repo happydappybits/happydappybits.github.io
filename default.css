@@ -1,0 +1,189 @@
+/* happy dappy bits
+/* default "base" css
+/* copyright 2011-2014 jane@happydappybits.com
+*/
+
+/* page structure */
+html,body { height: 100%; -webkit-text-size-adjust: none; }
+#upper_container { min-height: 100%; }
+/* height of footer-monster = 520px */
+/* make sure to change #footer_container height also */
+#upper { overflow: auto; padding-bottom: 520px; background-image: url('images/3.png'); background-repeat: no-repeat; background-position: center top; background-position-y: 0px; }
+#lower_container { position: relative; margin-top: -520px; height: 520px; clear: both; }
+/* footer_container = footer-monster - happybar */
+#footer_container { height: 455px; }
+body:before { content: ""; height: 100%; float: left; width: 0; margin-top: -32767px; }
+.clear { clear: both; }
+
+/* css styling */
+#upper { padding-top: 0px; }
+  #header { overflow: hidden; }
+    #logo { height: 150px; width: 100%; background-image: url('images/6.png'); background-repeat: no-repeat; background-position: center; }
+    #logo h1 { display: none; }
+    #logo-banner { height: 28px; width: 100%; background-image: url('images/122.png'); background-repeat: no-repeat; background-position: center; }
+    #logo-banner h1 { display: none; }
+    #navigation { padding-top: 18px; text-align: center; margin: auto; width: 960px; }
+    .nav-border { height: 20px; width: 100%; }
+    #navigation ul { height: 40px; margin: 0; padding: 0; margin-top: 0px; padding-bottom: 10px; list-style-type: none; text-align: center; background-image: url('images/7.png'); background-repeat: repeat-x; white-space: nowrap; }
+    #navigation li { font-family: 'Montserrat', sans-serif; font-size: 12px; display: inline; height: 40px; line-height: 42px; margin: 0; color: #8f7b6f; text-transform: uppercase; }
+    #navigation .nav-ABCD-A { padding-left: 0em; padding-right: 4em; }
+    #navigation .nav-ABCD-B { padding-left: 4em; padding-right: 4em; }
+    #navigation .nav-ABCD-C { padding-left: 4em; padding-right: 4em; }
+    #navigation .nav-ABCD-D { padding-left: 4em; padding-right: 0em; }
+    #navigation a, #navigation a:link, #navigation a:hover, #navigation a:visited { text-decoration: none; color: #8f7b6f; }
+    #navigation a:hover { text-decoration: none; color: #ec6479; }
+      #navigation .nav-active a, #navigation .nav-active a:link, #navigation .nav-active a:visited { color: #ec6479; }
+  #content { width: 960px; margin: auto; overflow: hidden; text-align: center; color: #8b7a73; }
+    #main { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; margin-top: 0px; font-size: 14px; line-height: 20px; padding-bottom: 30px; text-align: center; margin: auto; color: #8b7a73; }
+      #main a, #main a:link, #main a:hover, #main a:visited { color: #ec6479; text-decoration: none; }
+      #main a:hover, #main a:active { color: #e33951; background-color: #ffeceb; }
+        #front1 { width: 960px; height: 370px; text-align: center; margin: auto; overflow: hidden; padding-bottom: 20px; }
+          #front1 #banner { height: 0px; position: absolute; }
+          #front1 #banner div { opacity: 0; }
+          #front1 #banner-prev, #front1 #banner-next { z-index: 99; position: relative; cursor: pointer; }
+          #front1 #banner-prev { float: left; }
+          #front1 #banner-next { float: right; }
+          #front1 #banner-prev img { opacity: 1; }
+          #front1 #banner-next img { opacity: 1; }
+        #front2 { padding-top: 10px; text-align: center; margin: auto; width: 960px; }
+          #front2 ul { margin: 0; padding: 0; list-style-type: none; text-align: center; }
+          #front2 li { float: left; display: block; margin: 0; padding-left: 0px; padding-top: 10px; padding-right: 0px; padding-bottom: 0px; width: 240px; text-align: left; vertical-align: top; }
+          #front2 li div { padding-left: 0px; }
+          #front2 .ABCD-text { margin: 1px; width: 223px; height: 29px; }
+          #front2 .front2-A { margin-left: 0px; margin-right: 15px; background-color: #ded4cb; height: 237px; }
+          #front2 .front2-A p { font-family: MuseoSlab-500, Verdana, Helvetica, Aria, sans-serif; font-size: 14px; line-height: 29px; color: #867063; text-align: center; background-color: white; padding: 0px; }
+          #front2 .front2-B { margin-left: 5px; margin-right: 10px; background-color: #ded4cb; height: 237px; }
+          #front2 .front2-B p { font-family: MuseoSlab-500, Verdana, Helvetica, Aria, sans-serif; font-size: 14px; line-height: 29px; color: #867063; text-align: center; background-color: white; padding: 0px; }
+          #front2 .front2-C { margin-left: 10px; margin-right: 5px; background-color: #ded4cb; height: 237px; }
+          #front2 .front2-C p { font-family: MuseoSlab-500, Verdana, Helvetica, Aria, sans-serif; font-size: 14px; line-height: 29px; color: #867063; text-align: center; background-color: white; padding: 0px; }
+          #front2 .front2-D { margin-left: 15px; margin-right: 0px; background-color: #ded4cb; height: 237px; }
+          #front2 .front2-D p { font-family: MuseoSlab-500, Verdana, Helvetica, Aria, sans-serif; font-size: 14px; line-height: 29px; color: #867063; text-align: center; background-color: white; padding: 0px; }
+          #front2 li h3 { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 30px; font-weight: normal; text-align: left; padding-bottom: 0px; color: #867063; }
+          #front2 li h3 img { float: left; padding-right: 5px; }
+          #front2 li p { padding-left: 0px; padding-bottom: 2px; }
+          #front2 .new-icon { float: left; padding-right: 5px; padding-top: 2px; }
+          .front-col { line-height: 47px; }
+          .front-col img { float: left; padding: 6px; }
+          #main a.frontpageaction, #main a:link.frontpageaction, #main a:hover.frontpageaction, #main a:visited.fronpageaction { font-family: 'Rokkit', Verdana, Helvetica, Arial, sans-serif; font-size: 14px; font-weight: normal; color: #f16f91; }
+    .masthead { width: 960px; height: 200px; padding-bottom: 30px; padding-top: 0px; }
+    p { overflow: auto; width: 100%; }
+    #photoprints, #cardspaper, #about { text-align: left; padding-bottom: 20px; overflow: auto; }
+      #photoprints ul, #cardspaper ul, #about ul { list-style-type: none; margin: 0; padding: 0; overflow: auto; }
+      .mainspan { float: none; }
+      .pad-bot-30 { padding-bottom: 30px; }
+      .height200 { height: 200px; }
+      .narrow10 { padding-left: 10px; padding-right: 10px; }
+      #photoprints h3, #cardspaper h3 { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 30px; font-weight: normal; color: #8a6f5f; text-align: left; padding-bottom: 0px; }
+      #photoprints h4, #cardspaper h4, #about h4 { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 20px; font-weight: normal; color: #9d8d82; padding-bottom: 10px; }
+      .leftpic { float: left; }
+      .rightpic { float: right; }
+      .left-text, .right-text { margin-top: 30px; width: 541px; }
+      .left-text { float: left; }
+      .right-text { float: right; }
+        .left-text ul li, .right-text ul li { padding-bottom: 10px; }
+      .left-half-text, .right-half-text { width: 48%; }
+      .left-half-text p, .right-half-text p { padding-bottom: 20px; }
+      .left-half-text { float: left; }
+      .right-half-text { float: right; }
+      .header-override { margin-top: 0px; }
+      #main a.secondarypageaction, #main a:link.secondarypageaction, #main a:hover.secondarypageaction, #main a:active.secondarypageaction, #main a:visited.secondarypageaction { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; color: #f16f91; }
+      .mainhalf { width: 435px; }
+      #cardspaper .mainhalf h3 { padding-bottom: 10px; }
+      .push-right { float: right; }
+      .push-right ul li { padding-bottom: 20px; }
+      .push-left { float: left; }
+      .push-left ul li { padding-bottom: 25px; }
+      #about h3 { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 28px; font-weight: normal; color: #8a6f5f; text-align: left; padding-bottom: 15px; }
+      #about #detailbox h3 { line-height: 40px; padding-bottom: 6px; }
+      #about #detailbox h3 img { float: left; padding-right: 5px; }
+      #about p, #cardspaper p { padding-bottom: 15px; }
+      .mainhalf ul li div { text-align: center; }
+      #detailbox { text-align: left; background-color: #fff5f7; border: 5px solid #ffe4e9; padding: 25px; }
+      #detailbox ul li { padding-bottom: 10px; }
+      #detailbox ul li ul li { padding-bottom: 0px; font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; color: #f16f91; }
+      #detailbox ul li ul li a, #detailbox ul li ul li a:link, #detailbox ul li ul li a:hover, #detailbox ul li ul li a:active, #detailbox ul li ul li a:visited { color: #f16f91; }
+      #detailbox hr { background-image: url('http://happydappybits.com/images/54.png'); border: 0; height: 4px; }
+      #detailbox p { padding-bottom: 10px; }
+    #errortext { margin: auto; margin-top: 20px; width: 500px; }
+      #errortext h3 { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 40px; font-weight: normal; color: #8a6f5f; text-align: center; padding-bottom: 30px; }
+      #errortext p { text-align: left; margin-bottom: 1em; }
+
+#item-favs { text-align: center; }
+  #item-favs ul { padding: 0; width: 100%; margin: auto; list-style-type: none; overflow: auto; }
+  #item-favs li { width: 240px; overflow: auto; float: left; }
+  #item-favs ul li .fav-upper { height: 30px; padding-top: 10px; background-repeat: no-repeat; background-position: top center; }
+  #item-favs ul li .washi-blue { background-image: url('http://happydappybits.com/images/82.png'); }
+  #item-favs ul li .washi-yellow { background-image: url('http://happydappybits.com/images/83.png'); }
+  #item-favs ul .fav-mid { background-image: url('http://happydappybits.com/images/46.png'); background-repeat: repeat-y; background-position: center; }
+  #item-favs ul li .fav-bottom { background-image: url('http://happydappybits.com/images/47.png'); height: 25px; background-repeat: no-repeat; background-position: bottom center; }
+
+#lower_container { background-color: #e9dbcd; }
+  #happybar_container { height: 65px; background-image: url('http://happydappybits.com/images/108.png'); }
+    #happybar { height: 65px; width: 960px; color: #8a6f5f; text-align: center; margin: auto; }
+    #happybar ul { margin: 10px; padding: 0; list-style-type: none; text-align: center; }
+    #happybar li { text-align: left; height: 45px; vertical-align: middle; }
+    .quoted { font-family: 'Source Sans Pro', Tahoma, Helvetica, sans-serif; font-size: 14px; width: 485px; float: left; display: block; margin-top: 14px; padding: 0px; text-align: left; vertical-align: top; }
+      .quoted h4 { font-family: 'Montserrat', Verdana, Helvetica, Arial, sans-serif; font-size: 13px; font-weight: normal; color: #e74968; padding-bottom: 4px; text-transform: uppercase; }
+      .quoted p { text-indent: 1em; color: #60483c; overflow: hidden; }
+    .buttons { width: 455px; float: right; display: block; margin-top: 8px; padding: 0px; text-align: left; }
+      .buttons li { min-width: 125px; float: right; display: block; margin: 0px; padding-left: 15px; padding-right: 0px; text-align: left; }
+      .buttons li div { background-image: url('images/78.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
+      .buttons li div:hover { background-image: url('/images/20.png'); background-repeat: no-repeat; }
+      .buttons li img { float: left; padding-right: 5px; margin-top: -4px; }
+      .buttons li a, .buttons li a:link, .buttons li a:hover, .buttons li a:visited { font-family: 'Montserrat', Verdana, Helvetica, Arial, sans-serif; font-size: 11px; text-decoration: none; color: #867063; text-transform: uppercase; }
+      .buttons li a:hover { color: #47c1ea; }
+      .buttons .tumblr-link { padding-left: 5px; }
+      .buttons .tumblr-link div { background-image: url('/images/77.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
+      .buttons .tumblr-link div:hover { background-image: url('/images/19.png'); background-repeat: no-repeat; }
+      .buttons .tumblr-link a:hover { color: #405e7c; }
+      .buttons .etsy-link { padding-left: 5px; }
+      .buttons .etsy-link div { background-image: url('/images/76.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
+      .buttons .etsy-link div:hover { background-image: url('/images/18.png'); background-repeat: no-repeat; }
+      .buttons .etsy-link a:hover { color: #d45b02; }
+  #footer_container { background-color: #4d3a2c; color: #ffffff; background-image: url('images/109.png'); background-repeat: repeat-x; background-position-y: 0px; }
+    #footer { font-family: 'Source Sans Pro', Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #a28d7d; padding-top: 20px; text-align: center; width: 960px; margin: auto; }
+    #footer ul { margin: 0; padding: 0; list-style-type: none; text-align: center; overflow: auto; }
+    #footer li { text-align: left; }
+    .footerhalf { float: left; display: block; margin: 0px; width: 480px; text-align: left; vertical-align: top; }
+    .footerquarter { float: left; display: block; margin: 0px; padding: 10px; padding-bottom: 30px; width: 220px; text-align: left; vertical-align: top; }
+      .footerquarter h4 { color: #c7baac; font-family: 'Montserrat', Verdana, Helvetica, Arial, sans-serif; font-weight: normal; font-size: 11px; text-transform: uppercase; }
+      /* .footerquarter img { opacity: 0.80; } */
+      #footer a, #footer a:link, #footer a:visited { text-decoration: none; color: #8a6f5f; }
+      #footer a:hover { text-decoration: none; color: #d85f65; }
+      /* #footer a:hover img { opacity: 1.0; } */
+      #footer li #searchform {}
+      #footer li #searchform ul { margin: 0; padding: 0; list-style-type: none; text-align: center; }
+      #footer li #searchform li { text-align: center; }
+      #footer li #searchform input[type="text"] { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 14px; width: 155px; height: 16px; background-color: transparent; padding: 4px; font-style: italic; border: 1px solid #d6c7be; color: #8a6f5f; -webkit-appearance: none; -webkit-focus-ring-color: none; }
+      #footer li #searchform input[type="text"]:focus { outline: none; }
+      #footer #searchtextcontainer { float: left; }
+      #footer #searchbuttoncontainer { float: right; }
+      .footer-badges li { float:left; padding-right: 5px; }
+
+.searchbutton { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 14px; background-color: #d6c7be; padding: 4px; border: 1px solid #d6c7be; -webkit-appearance: none; color: #8a6f5f; width: 50px; height: 26px; }
+.searchbutton:hover { font-style: normal; background-color: #8a6f5f; border: 1px solid #8a6f5f; color: #ec6479; cursor: pointer; cursor: hand; }
+
+    #footer ul .linklist { padding-bottom: 16px; }
+    .footercol { float: left; display: block; margin: 0px; padding: 10px; padding-bottom: 50px; width: 220px; text-align: left; vertical-align: top; }
+    .footerspan { width: 960px; text-align: center; clear: both; color: #8a6f5f; }
+    .footerspan p { overflow: hidden; }
+    .footerdivider { height: 0; max-height: 0px; font-size: 1px; line-height: 0; overflow: visible; display: block; position: relative; padding: 0; margin: 8px auto; margin-bottom: 15px; width: 100%; clear: both; border: none; border-top: 1px solid rgba(0, 0, 0, 0.18); border-bottom: 1px solid #644f42; }
+    #footer-icons { width: 100%; margin: auto; padding-bottom: 15px; }
+    #footer-icons ul { text-align: center; }
+    #footer-icons li { display: inline; padding: 5px; }
+    #footer-icons img { vertical-align: middle; opacity: 0.80; }
+
+/* selection colors */
+::-moz-selection { color: #fff; background: #c0b0a9; text-shadow: none; }
+::selection { color: #fff; background: #c0b0a9; text-shadow: none; }
+/* a:link { -webkit-tap-highlight-color: #c0b0a9; } */
+#navigation ::-moz-selection, #navigation ::selection { color: #8a6f5f; text-shadow: none; }
+#main ::-moz-selection, #main ::selection { color: #8a6f5f; text-shadow: none; }
+#happybar ::-moz-selection, #happybar ::selection { color: #8a6f5f; text-shadow: none; }
+
+/*
+/* happy dappy bits
+/* default "base" css
+/* copyright 2011-2014 jane@happydappybits.com
+*/
+
