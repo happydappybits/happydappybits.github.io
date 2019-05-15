@@ -1,0 +1,204 @@
+/* happy dappy bits
+/* additional "blog" css
+/* copyright 2010, 2011, 2012 jane@happydappybits.com
+*/
+
+html body { background-color: #ffffff; }
+#blog { overflow: auto; padding-bottom: 0px; }
+#blog ul { padding-left: 90px; padding-right: 90px; margin: 0; list-style-type: none; overflow: auto; }
+#blog li { position: relative; float: left; }
+#blogcenter { width: 100%; min-height: 200px; }
+  #blogcontent ul { margin: 0; padding: 0; list-style-type: none; }
+  #blogcontent li { float: none; }
+  #blogcontent p { padding-top: 15px; }
+  #blogcontent .p1 { padding-top: 0px; }
+  #blogcontent { padding-left: 10px; padding-right: 10px; }
+    .blog-post { padding: 0px; padding-bottom: 30px; }
+      .post-top-text, .post-top-video, .post-top-audio, .post-top-quote, .post-top-answer, .post-top-chat, .post-top-link { height: 63px; background-image: url('http://happydappybits.com/images/37.png'); background-repeat: no-repeat; background-position: center; }
+      .post-top-photo { height: 63px; background-image: url('http://happydappybits.com/images/40.png'); background-repeat: no-repeat; background-position: center; }
+      .post-middle { background-image: url('http://happydappybits.com/images/39.png'); background-repeat: repeat-y; background-position: top center; padding-top: 3px; }
+      .post-bottom { height: 48px; background-image: url('http://happydappybits.com/images/38.png'); background-repeat: no-repeat; background-position: center; }
+    .reblog-post { padding: 0px; padding-bottom: 30px; }
+    .reblog-post .post-content img { border: 0px solid #eee8e2; }
+    /* .reblog-post .post-content img { border: 3px solid #eee8e2; } */
+      .reblog-top-text, .reblog-top-video, .reblog-top-audio, .reblog-top-quote, .reblog-top-answer, .reblog-top-chat, .reblog-top-link { height: 63px; background-image: url('http://happydappybits.com/images/44.png'); background-repeat: no-repeat; background-position: center; }
+      .reblog-top-photo { height: 63px; background-image: url('http://happydappybits.com/images/43.png'); background-repeat: no-repeat; background-position: center; }
+      .reblog-middle { background-image: url('http://happydappybits.com/images/42.png'); background-repeat: repeat-y; background-position: top center; padding-top: 3px; }
+      .reblog-bottom { height: 48px; background-image: url('http://happydappybits.com/images/41.png'); background-repeat: no-repeat; background-position: center; }
+    .blog-reblog-override-post { padding: 0px; padding-bottom: 30px; }
+      .post-reblog-override-top-text, .post-reblog-override-top-video, .post-reblog-override-top-audio, .post-reblog-override-top-quote, .post-reblog-override-top-answer, .post-reblog-override-top-chat, .post-reblog-override-top-link { height: 63px; background-image: url('http://happydappybits.com/images/37.png'); background-repeat: no-repeat; background-position: center; }
+      .post-reblog-override-top-photo { height: 63px; background-image: url('http://happydappybits.com/images/40.png'); background-repeat: no-repeat; background-position: center; }
+      .post-reblog-override-middle { background-image: url('http://happydappybits.com/images/39.png'); background-repeat: repeat-y; background-position: top center; padding-top: 3px; }
+      .post-reblog-override-bottom { height: 48px; background-image: url('http://happydappybits.com/images/38.png'); background-repeat: no-repeat; background-position: center; }
+
+      .post-content { text-align: left; padding-left: 80px; padding-right: 80px; margin-top: 10px; overflow: auto; }
+      .post-content li { padding-bottom: 0px; overflow: hidden; }
+      .post-content li div { width: 100%; }
+        .post-content li .albumart {}
+        .post-content li .quote { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 30px; font-weight: normal; text-align: center; padding-bottom: 6px; color: #867063;}
+        .post-content li .quote_source { text-align: right; }
+        .post-content li div.link { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 30px; font-weight: normal; text-align: left; color: #867063; float: left; width: 60%; }
+        #main .post-content li div.link a, .post-content li div.link a:link, .post-content li div.link a:hover, .post-content li div.link a:active, .post-content li div.link a:visited { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 30px; font-weight: normal; text-align: left; color: #867063; float: left; width: 60%;  }
+        .post-content li .link_description {}
+        .post-content li .copy {}
+
+.post-content li div.title { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 22px; line-height: 30px; font-weight: normal; text-align: left; color: #947867; float: left; width: 350px; }
+#main .post-content li div.title a, #main .post-content li div.title a:link, #main .post-content li div.title a:hover, #main .post-content li div.title a:active, #main .post-content li div.title a:visited { color: #947867; }
+#main .post-content li div.title a:hover { color: #ec6479; background-color: transparent; }
+.post-content li div.titledate { font-family: 'Montserrat'; font-size: 11px; width: 250px; text-align: right; float: right; text-transform: uppercase; padding-top: 1px; color: #aea098; line-height: 10px; }
+
+.copy { text-align: center; overflow: auto; }
+  .copy p { text-align: left; }
+    .copy p a, .copy p a:link, .copy p a:hover, .copy p a:active, .copy p a:visited { overflow: auto; }
+  .copy blockquote { padding-left: 20px; padding-right: 20px; border-left: 1px solid #d5cec9; }
+  .copy img { max-width: 98%; height: auto; border: 0px solid #eee8e2; margin-top: 10px; margin-bottom: 10px; vertical-align: middle; }
+  /* .copy img { max-width: 98%; height: auto; border: 3px solid #eee8e2; margin-top: 10px; margin-bottom: 10px; vertical-align: middle; } */
+.media { padding-top: 20px; text-align: center; clear: both; }
+  .media img { border: 0px solid #eee8e2; margin-top: 10px; margin-bottom: 10px; vertical-align: middle; }
+  /* .media img { border: 3px solid #eee8e2; margin-top: 10px; margin-bottom: 10px; vertical-align: middle; } */
+  .media iframe { margin-top: 10px; margin-bottom: 10px; }
+.albumart { padding-top: 20px; text-align: center; clear: both; }
+.quote { padding-top: 20px; clear: both; }
+
+.asker-icon { display: none; }
+.asker {}
+.question-copy { padding-top: 10px; }
+  .question-copy ul { overflow: auto; text-align: left; }
+  #blogcontent .question-copy li { float: left; }
+  .question-big { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 20px; line-height: 26px; font-weight: normal; text-align: left; color: #867063; }
+  .question-header { width: 30px; }
+  .question-question { width: 570px; }
+  .question-answer { width: 570px; }
+  .question-A { padding-top: 10px; }
+
+.post-footer { padding-top: 20px; padding-left: 80px; padding-right: 80px; padding-bottom: 10px; font-family: Verdana, Helvetica, sans-serif; font-size: 10px; line-height: 16px; color: #aea098; }
+  #blogcontent .post-footer li.no-float { float: none; }
+  .icon { float: left; display: block; margin-right: 3px; height: 14px; background-image: url('http://happydappybits.com/images/50.png'); }
+  .post-footer ul, .post-footer li { overflow: auto; }
+  #blogcontent .post-footer li { float: left; margin-right: 10px; padding-bottom: 0px; }
+  #main .post-footer a, #main .post-footer a:link, #main .post-footer a:visited { color: #aea098; }
+  #main .post-footer a:hover, #main .post-footer a:active { color: #725c4e; background-color: transparent; }
+  #main .footer-date { text-align: left; }
+  .footer-date .icon { width: 12px; background-position: 0px 0px; }
+  .footer-date:hover .icon { background-position: 0px 32px; }
+  #main .footer-notecount { text-align: left; }
+  .footer-notecount .icon { width: 12px; background-position: -12px 0px; }
+  .footer-notecount:hover .icon { background-position: -12px 32px; }
+  #main .footer-tags {}
+  .footer-tags .icon { width: 12px; background-position: 26px 0px; margin-right: 0px; }
+  .footer-tags:hover .icon { background-position: 26px 32px; }
+  #blogcontent .footer-tags ul { padding: 0; margin: 0; overflow: auto; }
+    #blogcontent .footer-tags li { float: left; margin-right: 5px; }
+  #main .footer-reblog { overflow: auto; text-align: left; }
+  .footer-reblog .icon { width: 14px; background-position: 14px 0px; }
+  .footer-reblog:hover .icon { background-position: 14px 32px; }
+  #main .footer-source { overflow: auto; }
+  .footer-source .icon { width: 12px; background-position: 58px 0px; }
+  .footer-source:hover .icon { background-position: 58px 32px; }
+
+.note_container { overflow: auto; padding-top: 20px; font-family: 'Quattrocento Sans', Verdana, Helvetica, Arial, sans-serif; font-size: 14px; line-height: 20px; text-align: center; margin: auto; color: #725c4e }
+  #main #blogcontent .post-footer .note_container a, #main #blogcontent .post-footer .note_container a:link, #main #blogcontent .post-footer .note_container a:hover, #main #blogcontent .post-footer .note_container a:active, #main #blogcontent .post-footer .note_container a:visited {}
+  #main #blogcontent .post-footer .note_container a:hover {}
+  #main #blogcontent .post-footer .note_container a.more_notes_link, #main #blogcontent .post-footer .note_container a.more_notes_link:link, #main #blogcontent .post-footer .note_container a.more_notes_link:hover, #main #blogcontent .post-footer .note_container a.more_notes_link:active, #main #blogcontent .post-footer .note_container a.more_notes_link:visited { color: #ec6479; }
+   #main #blogcontent .post-footer .note_container a.more_notes_link:hover { color: #e33951; background-color: #ffe8e8; }
+  .note_container ol { list-style-type: none; margin: 0; padding: 0; }
+  #blogcontent .post-footer .note_container .notes li { float: none; text-align: left; margin-left: 40px; margin-right: 40px; border-top: 1px dotted #d5cec9; padding-top: 10px; padding-bottom: 8px; }
+  .avatar { position: relative; top: 4px; margin-right: 3px; border: 1px solid #cccccc; }
+  .action { padding-top: 3px; padding-bottom: 2px; }
+  .with_commentary blockquote { padding-left: 25px; }
+
+#blog-search { margin-left: 250px; width: 460px; height: 36px; margin-bottom: 20px; text-align: left; background-image: url('http://happydappybits.com/images/119.png'); }
+  #blog-search .searchinput { width: 397px; color: #aaa39b; font-family: Helvetica Neue, sans-serif ; font-size: 13px; background-color: transparent; padding: 9px 9px 12px 14px; display: block; border: none; line-height: 18px; }
+  #blog-search ul li { float: left; }
+  #blog-search :active, #blog-search :focus { outline: 0; outline-style: none; outline-width: 0; -moz-outline-width: 0; border: none; }
+  #blog-search #submitform { height: 36px; width: 40px; cursor: pointer; }
+  ::-webkit-input-placeholder { color: #aaa39b; }
+  :-moz-placeholder { color: #aaa39b; }
+
+#blogleft { background-color: #ffffff; width: 90px; min-height: 200px; right: 90px; margin-left: -100%; overflow: hidden; }
+  #blogleft ul { padding: 0px; margin: 0px; overflow: hidden; }
+  #blogleft ul li { float: left; overflow: hidden; }
+  #etsymini-left { margin-left: 0px; margin-top: 0px; padding-top: 18px; text-align: left; line-height: 14px; }
+    #etsymini-left ul { font-size: 16px; color: #AEA098; }
+    #etsymini-left ul li { margin-top: 14px; }
+    #etsymini-left h4 { font-family: MuseoSlab-500; font-size: 14px; font-weight: normal; color: #AEA098; line-height: 17px; }
+    #etsymini-left a { font-size: 12px; line-height: 14px; text-transform:uppercase; }
+    #etsymini-left hr { margin-top: 18px; color: #AEA098; }
+  #blogleft #left-extra { padding-top: 6px; padding-left: 1px; padding-bottom: 6px; }
+  #blogleft #left-extra a:hover, #blogleft #left-extra a, #blogleft #left-extra a:link { color: white; }
+#blogright { background-color: #ffffff; float: right; width: 90px; min-height: 200px; margin-right: -90px; overflow: hidden; }
+  #blogright ul { padding: 0px; margin: 0px; overflow: hidden; }
+  #blogright ul li { float: left; overflow: hidden; }
+  #etsymini-right { margin-left: 0px; margin-top: -3px; padding-top: 22px; height: 670px; } /* Etsy mini sizing hack */
+  #blogright #right-extra { padding-top: 6px; padding-left: 1px; padding-bottom: 6px; }
+* html #blogleft { left: 170px; } /* an IE hack, of course */
+#blogpagenav { clear: both; overflow: auto; padding-bottom: 40px; position: relative; top: -20px; }
+  #blogpagenav ul { margin: 0; padding: 0; width: 720px; margin: auto; }
+  #blogpagenav .previous { float: left; }
+  #blogpagenav .next { float: right; }
+  #blogpagenav a, #blogpagenav a:link, #blogpagenav a:visited { font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 16px; font-weight: normal; color: #937a6b; }
+  #blogpagenav a:hover {}
+#likes-section { overflow: auto; padding-bottom: 10px; }
+  #likes-section ul { margin: 0; padding: 0; width: 100%; margin: auto; }
+  #likes { text-align: center; }
+  #main #likes a:hover { background-color: transparent; }
+  #likes img { max-width: 175px; height: auto; border: 1px solid #a8a098; }
+  #likes li { width: 240px; overflow: auto; }
+    .like_post { background-image: url('http://happydappybits.com/images/46.png'); background-repeat: repeat-y; background-position: center; }
+    .like_post div { padding-left: 25px; padding-right: 25px; }
+    .post_info_top { height: 30px; padding-top: 10px; background-image: url('http://happydappybits.com/images/45.png'); background-repeat: no-repeat; background-position: top center; }
+      .post_info_top a { display: none; }
+      .post_info_top .via { display: none; }
+    .post_info_bottom { height: 40px; line-height: 15px; padding-top: 5px; background-image: url('http://happydappybits.com/images/47.png'); background-repeat: no-repeat; background-position: bottom center; }
+  #more-likes { display: none; text-align: right; padding-right: 10px; }
+
+/* tumblr hacking */
+#tumblr_controls { display: none; }
+.post_info_top { display: block; }
+.post_info_bottom { display: block; }
+
+/* Social networking icons */
+.social-network-buttons { overflow: auto; padding-top: 16px; }
+  .social-network-buttons ul { margin: 0; padding: 0; margin: auto; }
+  .social-network-buttons li { float: left; }
+  .sharebutton { display: block; height: 16px; width: 16px; background-image: url('http://happydappybits.com/images/61.png'); }
+    .twitter-share { background-position: 0px 0px; }
+    .twitter-share:hover { background-position: 0px -16px; }
+    .facebook-share { background-position: -23px 0px; }
+    .facebook-share:hover { background-position: -23px -16px; }
+    .stumble-share { background-position: -46px 0px; }
+    .stumble-share:hover { background-position: -46px -16px; }
+    .pinterest-share { background-position: -69px 0px; }
+    .pinterest-share:hover { background-position: -69px -16px}
+
+/* Disqus hacking */
+#blog #disqus_thread { padding-top: 20px; border-top: 1px dotted #867063; }
+#blog #disqus_thread ul {}
+#blog #blogcontent .post-footer #disqus_thread li { margin-right: 3px; }
+#dsq-content #dsq-global-toolbar { display: none; }
+#dsq-content .dsq-subscribe-email img, #dsq-content .dsq-subscribe-rss img { padding-bottom: 5px; }
+
+/* adjustments to main css */
+  #content { padding-top: 6px; }
+  /* happybar's new links */
+  .quoted a, .quoted a:link, .quoted a:visited { color: #e74968; text-decoration: none; }
+  .quoted a:hover { text-decoration: underline; }
+  /* footer span for the blog search */
+  .footerquarter { padding-bottom: 20px; }
+  #footer .footerspan li { text-align: center; }
+  /* page structure */
+  html,body { height: 100%; }
+  #upper_container { min-height: 100%; }
+  /* height of footer-monster = 570px */
+  /* make sure to change #footer_container height also */
+  #upper { padding-bottom: 570px; }
+  #lower_container { margin-top: -570px; height: 570px; }
+  /* footer_container = footer-monster - happybar */
+  #footer_container { height: 505px; }
+
+/*
+/* happy dappy bits
+/* additional "blog" css
+/* copyright 2010, 2011, 2012 jane@happydappybits.com
+*/
+
