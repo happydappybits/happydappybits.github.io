@@ -8,7 +8,7 @@ html,body { height: 100%; -webkit-text-size-adjust: none; }
 #upper_container { min-height: 100%; }
 /* height of footer-monster = 520px */
 /* make sure to change #footer_container height also */
-#upper { overflow: auto; padding-bottom: 520px; background-image: url('images/3.png'); background-repeat: no-repeat; background-position: center top; background-position-y: 0px; }
+#upper { overflow: auto; padding-bottom: 520px; background-image: url('https://happydappybits.github.io/images/3.png'); background-repeat: no-repeat; background-position: center top; background-position-y: 0px; }
 #lower_container { position: relative; margin-top: -520px; height: 520px; clear: both; }
 /* footer_container = footer-monster - happybar */
 #footer_container { height: 455px; }
@@ -18,13 +18,13 @@ body:before { content: ""; height: 100%; float: left; width: 0; margin-top: -327
 /* css styling */
 #upper { padding-top: 0px; }
   #header { overflow: hidden; }
-    #logo { height: 150px; width: 100%; background-image: url('images/6.png'); background-repeat: no-repeat; background-position: center; }
+    #logo { height: 150px; width: 100%; background-image: url('https://happydappybits.github.io/images/6.png'); background-repeat: no-repeat; background-position: center; }
     #logo h1 { display: none; }
-    #logo-banner { height: 28px; width: 100%; background-image: url('images/122.png'); background-repeat: no-repeat; background-position: center; }
+    #logo-banner { height: 28px; width: 100%; background-image: url('https://happydappybits.github.io/images/122.png'); background-repeat: no-repeat; background-position: center; }
     #logo-banner h1 { display: none; }
     #navigation { padding-top: 18px; text-align: center; margin: auto; width: 960px; }
     .nav-border { height: 20px; width: 100%; }
-    #navigation ul { height: 40px; margin: 0; padding: 0; margin-top: 0px; padding-bottom: 10px; list-style-type: none; text-align: center; background-image: url('images/7.png'); background-repeat: repeat-x; white-space: nowrap; }
+    #navigation ul { height: 40px; margin: 0; padding: 0; margin-top: 0px; padding-bottom: 10px; list-style-type: none; text-align: center; background-image: url('https://happydappybits.github.io/images/7.png'); background-repeat: repeat-x; white-space: nowrap; }
     #navigation li { font-family: 'Montserrat', sans-serif; font-size: 12px; display: inline; height: 40px; line-height: 42px; margin: 0; color: #8f7b6f; text-transform: uppercase; }
     #navigation .nav-ABCD-A { padding-left: 0em; padding-right: 4em; }
     #navigation .nav-ABCD-B { padding-left: 4em; padding-right: 4em; }
@@ -127,18 +127,18 @@ body:before { content: ""; height: 100%; float: left; width: 0; margin-top: -327
       .quoted p { text-indent: 1em; color: #60483c; overflow: hidden; }
     .buttons { width: 455px; float: right; display: block; margin-top: 8px; padding: 0px; text-align: left; }
       .buttons li { min-width: 125px; float: right; display: block; margin: 0px; padding-left: 15px; padding-right: 0px; text-align: left; }
-      .buttons li div { background-image: url('images/78.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
-      .buttons li div:hover { background-image: url('/images/20.png'); background-repeat: no-repeat; }
+      .buttons li div { background-image: url('https://happydappybits.github.io/images/78.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
+      .buttons li div:hover { background-image: url('https://happydappybits.github.io/images/20.png'); background-repeat: no-repeat; }
       .buttons li img { float: left; padding-right: 5px; margin-top: -4px; }
       .buttons li a, .buttons li a:link, .buttons li a:hover, .buttons li a:visited { font-family: 'Montserrat', Verdana, Helvetica, Arial, sans-serif; font-size: 11px; text-decoration: none; color: #867063; text-transform: uppercase; }
       .buttons li a:hover { color: #47c1ea; }
       .buttons .tumblr-link { padding-left: 5px; }
-      .buttons .tumblr-link div { background-image: url('/images/77.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
-      .buttons .tumblr-link div:hover { background-image: url('/images/19.png'); background-repeat: no-repeat; }
+      .buttons .tumblr-link div { background-image: url('https://happydappybits.github.io/images/77.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
+      .buttons .tumblr-link div:hover { background-image: url('https://happydappybits.github.io/images/19.png'); background-repeat: no-repeat; }
       .buttons .tumblr-link a:hover { color: #405e7c; }
       .buttons .etsy-link { padding-left: 5px; }
-      .buttons .etsy-link div { background-image: url('/images/76.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
-      .buttons .etsy-link div:hover { background-image: url('/images/18.png'); background-repeat: no-repeat; }
+      .buttons .etsy-link div { background-image: url('https://happydappybits.github.io/images/76.png'); background-repeat: no-repeat; height: 45px; margin-top: -3px; padding-top: 4px; padding-left: 40px; }
+      .buttons .etsy-link div:hover { background-image: url('https://happdappybits.github.io/images/18.png'); background-repeat: no-repeat; }
       .buttons .etsy-link a:hover { color: #d45b02; }
   #footer_container { background-color: #4d3a2c; color: #ffffff; background-image: url('images/109.png'); background-repeat: repeat-x; background-position-y: 0px; }
     #footer { font-family: 'Source Sans Pro', Verdana, Arial, Helvetica, sans-serif; font-size: 14px; color: #a28d7d; padding-top: 20px; text-align: center; width: 960px; margin: auto; }
