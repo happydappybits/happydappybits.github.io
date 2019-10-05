@@ -102,7 +102,7 @@ body:before { content: ""; height: 100%; float: left; width: 0; margin-top: -327
       #detailbox ul li { padding-bottom: 10px; }
       #detailbox ul li ul li { padding-bottom: 0px; font-family: MuseoSlab-500, Verdana, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: normal; color: #f16f91; }
       #detailbox ul li ul li a, #detailbox ul li ul li a:link, #detailbox ul li ul li a:hover, #detailbox ul li ul li a:active, #detailbox ul li ul li a:visited { color: #f16f91; }
-      #detailbox hr { background-image: url('http://happydappybits.com/images/54.png'); border: 0; height: 4px; }
+      #detailbox hr { background-image: url('https://happydappybits.github.io/images/54.png'); border: 0; height: 4px; }
       #detailbox p { padding-bottom: 10px; }
     #errortext { margin: auto; margin-top: 20px; width: 500px; }
       #errortext h3 { font-family: 'Source Sans Pro', Verdana, Helvetica, Arial, sans-serif; font-size: 28px; line-height: 40px; font-weight: normal; color: #8a6f5f; text-align: center; padding-bottom: 30px; }
@@ -112,13 +112,13 @@ body:before { content: ""; height: 100%; float: left; width: 0; margin-top: -327
   #item-favs ul { padding: 0; width: 100%; margin: auto; list-style-type: none; overflow: auto; }
   #item-favs li { width: 240px; overflow: auto; float: left; }
   #item-favs ul li .fav-upper { height: 30px; padding-top: 10px; background-repeat: no-repeat; background-position: top center; }
-  #item-favs ul li .washi-blue { background-image: url('http://happydappybits.com/images/82.png'); }
-  #item-favs ul li .washi-yellow { background-image: url('http://happydappybits.com/images/83.png'); }
-  #item-favs ul .fav-mid { background-image: url('http://happydappybits.com/images/46.png'); background-repeat: repeat-y; background-position: center; }
-  #item-favs ul li .fav-bottom { background-image: url('http://happydappybits.com/images/47.png'); height: 25px; background-repeat: no-repeat; background-position: bottom center; }
+  #item-favs ul li .washi-blue { background-image: url('https://happydappybits.github.io/images/82.png'); }
+  #item-favs ul li .washi-yellow { background-image: url('https://happydappybits.github.io/images/83.png'); }
+  #item-favs ul .fav-mid { background-image: url('https://happydappybits.github.io/images/46.png'); background-repeat: repeat-y; background-position: center; }
+  #item-favs ul li .fav-bottom { background-image: url('https://happydappybits.github.io/images/47.png'); height: 25px; background-repeat: no-repeat; background-position: bottom center; }
 
 #lower_container { background-color: #e9dbcd; }
-  #happybar_container { height: 65px; background-image: url('http://happydappybits.com/images/108.png'); }
+  #happybar_container { height: 65px; background-image: url('https://happydappybits.github.io/images/108.png'); }
     #happybar { height: 65px; width: 960px; color: #8a6f5f; text-align: center; margin: auto; }
     #happybar ul { margin: 10px; padding: 0; list-style-type: none; text-align: center; }
     #happybar li { text-align: left; height: 45px; vertical-align: middle; }
